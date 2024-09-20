@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Esta pagina muestra un formulario con select">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Select></Select></title>
+</head>
+<body>
+    <main>
+        <!-- Una forma de hacerlo, pero no la mejor, la siguiente es la de buenas practicas
+        <select name="cursos" id="">
+            <option value="JavaScript">JavaScript</option>
+            <option value="HTML5">HTML5</option>
+            <option value="CSS3">CSS3</option>
+            <option value="Web Standars">Web Standars</option>
+        </select> -->
+
+        <!--El list y el id deben ser iguales-->
+        <input list="cursos">
+        <datalist id="cursos"> 
+            <option value="JavaScript"></option>
+            <option value="HTML5"></option>
+            <option value="CSS3"></option>
+            <option value="Web Standars"></option>
+        </datalist>
+    </main>
+    
+</body>
+</html>
