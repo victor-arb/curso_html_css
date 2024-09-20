@@ -28,12 +28,33 @@
             </label>
             <input type="submit">
         </form> -->
-        <form action="">
+
+        <!-- <form action="">
             <label for="calendario">
                 <span>Calendario</span>
                 <input type="datetime-local" id="calendario" name="calendario">
             </label>
             <input type="submit">
+        </form> -->
+        <form action="">
+            <label for="nombre">
+                <span>¿Cual es tu nombre?</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            </label>
+            <label for="correo">
+                <span>¿Cual es tu correo?</span>
+                <input type="email" name="correo" id="correo" autocomplete="email" required>
+            </label>
+            <label for="pais">
+                <span>¿En que país vives?</span>
+                <input type="text" name="pais" id="pais" autocomplete="country" required>
+            </label>
+            <label for="cp">
+                <span>¿Cual es tu codigo postal?</span>
+                <input type="text" name="cp" id="cp" autocomplete="postal-code" required> <!--Puede ser tipo number-->
+            </label>
+            <input type="submit">
+            
         </form>
     </main>
 </body>
