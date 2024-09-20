@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    font-size: 30px;
+    text-shadow: 5px 5px 5px white;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2) ;
+    padding: 40px;
+}
+
+body {
+    background-color: rgb(17, 108, 160);
+}
+
+h2 >span {
+    text-align: center;
+    font-size: 25px;
+    padding: 40px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.2)
+
+}
+
+.elementos-mercado {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(1, 1, 1, 0.5);
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.7);
+    height: auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+li {
+    padding: 20px;
+}
+
+#frutas {
+    background-color: rgba(14, 255, 235, 0.399) ;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.elementos-frutas {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3) ;
+    border-radius: 10px;
+    display: flex;    
+}
+
+#carnes {
+    background-color: rgba(249, 131, 5, 0.87) ;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.elementos-carnes {
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.3) ;
+    border-radius: 10px;
+    display: flex;
+}
+
+#verduras {
+    background-color: rgba(123, 255, 0, 0.563) ;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.elementos-verduras {
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.3) ;
+    border-radius: 10px;
+}
+
+figure {
+    text-align: center;
+    padding: 5px;
+
+    &>img{
+        width: auto;
+        max-width: 100px;
+        border-radius: 30px;
+    }
+   
+}
+
+
+figcaption{
+    font-size: 15px;
+    font-weight: lighter;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2) ;
+    padding: 40px;
+    font-weight: bolder;
+}
+
