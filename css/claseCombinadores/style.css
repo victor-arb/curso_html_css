@@ -6,6 +6,18 @@
 
 /*General-siblings*/
 /*Busca las etiquetas p que tengan un h2 como hermano general (no necesariamente siguientes)*/
-h2~p {
+/* h2~p {
+    color: red;
+} */
+
+/*combinador - child/hijo directo*/
+/*Etiqueta parrafo que sea hija directa de la etiqueta div*/
+/* div > p {
+    color: red;
+} */
+
+/*combinador - descendiente/descendant*/
+/*Etiqueta parrafo que sea hija (no necesariamente directo) de la etiqueta div (el padre mayor)*/
+div  p {
     color: red;
 }
