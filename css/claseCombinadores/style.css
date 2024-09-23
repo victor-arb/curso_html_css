@@ -1,3 +1,11 @@
-h2+p { /*Busca todas las etiquetas cercanas a una etiqueta parrafo, combinadores - adjacent siblings*/
+/*Adjacent-siblings*/
+/*Busca todas las etiquetas de parrafo cercanas(maximo una etiqueta) a una etiqueta h2, combinadores - adjacent siblings*/
+/* h2+p { 
+    color: red;
+} */
+
+/*General-siblings*/
+/*Busca las etiquetas p que tengan un h2 como hermano general (no necesariamente siguientes)*/
+h2~p {
     color: red;
 }
