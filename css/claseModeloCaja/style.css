@@ -1,0 +1,16 @@
+/*Resetear los estilos por defecto de las etiquetas - selector universal, buena practica hacerlo siempre!!!*/
+* {
+    /*Regla que ayuda a sumar el padding y border al width del elemento para calcular todo mas facil y no se salga (Toma el valor de width justo) */
+    /*Cuidado: el margin si lo añade al width, y lo recalcula*/
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid gray;
+    padding: 20px 35px;
+
+}

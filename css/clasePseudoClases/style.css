@@ -15,7 +15,7 @@
     text-decoration: none;
 }
 
-/*Pseudo clases-se invocan con dos puntos seguido de la pseudoclase*/
+/*Pseudo clases-se invocan con dos puntos seguido de la pseudoclase, usados para dar estilos a un estado*/
 .main-nav__item a:hover{
     color: blue;
 }
@@ -24,5 +24,5 @@
 }
 /*Pseudoelementos - Se invocan con 4 puntos :: */
 .main-nav__item a::after{
-    content: " | ";
+    content: " | "; /*Contendio agregado despues del elemento seleccionado, para dar estilo a un elemento.*/
 }
