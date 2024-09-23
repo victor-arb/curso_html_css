@@ -1,0 +1,3 @@
+h2+p { /*Busca todas las etiquetas cercanas a una etiqueta parrafo, combinadores - adjacent siblings*/
+    color: red;
+}
