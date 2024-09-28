@@ -10,4 +10,5 @@ html {
 
 p {
     font-size: 1.6rem; /*Siempre referencia al font-size de la raiz (etiqueta html)-por defecto 16px*/
+    /*Para usar rem ahora es mas facil, 1.7rem es 17px, 2rem es 20px, no usar px sino rem, buena practica.*/
 }

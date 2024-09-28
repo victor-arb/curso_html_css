@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+
+section{
+    /*A continuación se encuentran algunas de las buenas practicas a utilizar con min,maz vh vh*/
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 0 auto; /*Para centrar el section de izquierda a derecha, de arriba a abajo no tiene margin, 0*/
+    background-color: red;
+    
+}
