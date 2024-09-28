@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.card{
+    margin:0 auto;
+    background-color: white;
+    width: 30%;
+    min-width: 300px;
+    min-height: 300px;
+}
+.card__box-title{
+    position: relative;
+    margin: 0 auto;
+    top: 25px;
+    background-color:rgb(255, 89, 0); ;
+    border: 5px black solid;
+    border-radius: 10px;
+    max-width: 40%;
+    min-width: 70px;
+    min-height: 50px;
+    font-size: 2.5rem; /*No lo esta aplicando, esta tomando el de h2 = 2.5em*/
+    text-align: center;
+}
+.card__box-content{
+    background-color: rgb(255, 244, 127);
+    border: 5px black solid;
+    border-radius: 20px;
+    /* width: 50%; */
+    
+    text-align: justify;
+    font-size: 1.8rem;
+}
+.card__box-content--character{
+    /*figure es un elemento in-block, debe tener un widht para centrar con margin*/
+    margin: 3rem auto;
+    width: 200px; 
+}
+/*Redimensionar imagen*/
+.card__box-content--character img{
+    width: 200px;
+    height: auto;
+}
+
+.card__box-content p {
+    
+    width: 80%;
+    margin: 3rem auto;  
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px black solid;
+}
