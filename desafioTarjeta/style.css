@@ -13,7 +13,7 @@ body {
 .card{
     margin:0 auto;
     background-color: white;
-    width: 30%;
+    width: 30%; /*En caso de ser mas de una tarjeta, probablemente se deba cambiar a px fijos y desplejarlas hacia abajo en responsive*/
     min-width: 300px;
     min-height: 300px;
 }
