@@ -1,0 +1,13 @@
+/*Lo usado en el selector universal y en la etiqueta html debe ir en todos los proyectos que se hagan*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%; /*Se setea la etiqueta html a 10px, y hace mas faciles los calculos con rem, multiplicar por 10*/
+}
+
+p {
+    font-size: 1.6rem; /*Siempre referencia al font-size de la raiz (etiqueta html)-por defecto 16px*/
+}
