@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; /*10px*/
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex; /*Diseño mas responsive, funciona inicialmente como inline block, se aplica a todos los hijos sin tener que ir a cada uno de ellos*/
+    flex-direction: row;
+    flex-wrap: wrap;    /*Empieza a bajar el contenido de acuerdo al tamaño de la pantalla-responsive*/
+    justify-content: center; /*Centra el contenido, ya no es necesario el position, y el margin 0 auto*/
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: burlywood;
+}
+.box4{
+    background-color: cadetblue;
+}
+.box5{
+    background-color: coral; 
+}
+.box6{
+    background-color: salmon;
+}

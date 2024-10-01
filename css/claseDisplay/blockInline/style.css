@@ -1,4 +1,4 @@
-.block-element {
+.block-element { /*Elemento en bloque*/
     background-color: green;
     margin: 10px;
     padding: 20px;
@@ -10,10 +10,11 @@
     text-align: center;
 }
 .nav li {
-    display: inline-block;
+    display: inline-block; /*cambiando elemento en bloque a inline block*/
     font-size: 20px;
     margin: 10px 0;
     padding-left: 20px;
     padding-right: 20px;
 
 }
+/*El elemento inline no se le puede modificar el margin ni padding ni width o heigth arriba y abajo*/
