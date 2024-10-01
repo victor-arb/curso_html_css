@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; /*10px*/
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    
+    display: flex; /*Diseño mas responsive, funciona inicialmente como inline block, se aplica a todos los hijos sin tener que ir a cada uno de ellos*/
+    flex-direction: row;
+    align-items: stretch; /*Se estira al 100% de su contenedor padre, si no se limita su altura*/
+    flex-wrap: wrap;
+    
+
+    /* height: 50vh; /*50% de la pantalla*/ 
+
+}
+.box{
+    /* width: 10rem; */
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+.box1{
+    background-color: blue;
+    /* flex-grow: 1; - Toma el ancho de la pantalla sobrante */
+}
+.box2{
+    background-color: blueviolet;
+ 
+}
+.box3{
+    background-color: burlywood;
+}
+.box4{
+    background-color: cadetblue;
+}
+.box5{
+    background-color: coral; 
+}
+.box6{
+    background-color: salmon;
+}
